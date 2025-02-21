@@ -7,12 +7,12 @@ import { POKEMON_LIST } from './pokemon-liste.fake';
 })
 export class PokemonService {
 
-  getPokemonList(): PokemonList{
+  getPokemonList(): PokemonList{//fonction qui retourne la liste des pokemons
 
     return POKEMON_LIST;
   }
 
-  getPokemonById(id: number): Pokemon {
+  getPokemonById(id: number): Pokemon {//fonction qui retourne un pokemon par son ID
 
     const pokemon  = POKEMON_LIST.find(pokemon => pokemon.id == id);
 
@@ -22,7 +22,7 @@ export class PokemonService {
     return pokemon;
   }
 
-  getPokemonTyListe(): string[]{
+  getPokemonTyListe(): string[]{//fonction qui retourne la liste des types de pokemons
     return [
       'Plante',
       'Feu',
