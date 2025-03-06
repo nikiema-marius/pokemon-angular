@@ -26,7 +26,7 @@ Une fois le serveur démarré, ouvrez votre navigateur et accédez à http://loc
 
 ## Structure du projet
 
-src/
+ ```bash src/
 ├── app/
 │   ├── pokemon/
 │   │   ├── pokmon-list/
@@ -48,3 +48,5 @@ src/
 ├── environments/
 ├── index.html
 ├── main.ts
+
+```
